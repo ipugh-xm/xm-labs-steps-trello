@@ -19,7 +19,7 @@ These steps allow you to **Create Cards**, **Update Cards**, and **Add Comments 
 * [trello.png](/trello.png) - Trello logo
 
 # How it works
-These steps use the [Trello API](https://developer.atlassian.com/cloud/trello/rest/) to Create, Update, and add comments to cards.
+These steps use the [Trello API](https://developer.atlassian.com/cloud/trello/rest/) to Create, Update, and Add Comments to cards.
 
 
 # Installation
@@ -43,22 +43,25 @@ Both of those values should be put into xMatters Constants.
 Below are instructions to get various values you might need when using the steps.
 
 <details>
-<summary>Get Card and List ID</summary>
+<summary>Get Card ID</summary>
 
-1. Select a card (or if getting List ID, any card on the list) you would like to find the ID of
+1. Select the card you would like to get the ID of.
+2. Look in the URL, you will see the card ID. In this case the ID is `BxFja7FI`
+
+<img src="trello_card_url.png"/>"
+
+</details>
+
+<details>
+<summary>Get List ID</summary>
+
+1. Select any card on a list you would like to find the ID of
 
 <img src="media/trello_list.png"/>
 
 2. In the URL, append `.json`
 
 <img src="media/trello_extension.png"/>
-
-### Card ID
-
-Search the page for `id`. Note: `not all values matching this will be the correct id. The first value on the page should be the right one.`
-
-<img src="media/trello_card_json.png"/>
-
 
 ### List ID
 
