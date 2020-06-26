@@ -48,7 +48,7 @@ Below are instructions to get various values you might need when using the steps
 1. Select the card you would like to get the ID of.
 2. Look in the URL, you will see the card ID. In this case the ID is `BxFja7FI`
 
-<img src="trello_card_url.png"/>"
+<img src="media/trello_card_url.png"/>"
 
 **NOTE: Not all inputs accept this short ID, so try and use the full-length ID when possible**
 
@@ -81,7 +81,7 @@ When using the due date field, we've found formats like `June 20, 2020`, `20 Jun
 
 Each step calls one Trello API path.
 
-**Trello - Create Card** [/1/cards](https://developer.atlassian.com/cloud/trello/rest/?_ga=2.118514889.1765711000.1593034076-1069052946.1581371535#api-cards-post)
+##Trello - Create Card [/1/cards](https://developer.atlassian.com/cloud/trello/rest/?_ga=2.118514889.1765711000.1593034076-1069052946.1581371535#api-cards-post)
 
 
 ### Inputs
@@ -111,7 +111,7 @@ Each step calls one Trello API path.
 | json | JSON response from the API Call |
 
 ---
-**Trello - Update Card** [/1/cards/{id}](https://developer.atlassian.com/cloud/trello/rest/?_ga=2.118514889.1765711000.1593034076-1069052946.1581371535#api-cards-id-put)
+##Trello - Update Card [/1/cards/{id}](https://developer.atlassian.com/cloud/trello/rest/?_ga=2.118514889.1765711000.1593034076-1069052946.1581371535#api-cards-id-put)
 
 
 ### Inputs
@@ -142,7 +142,7 @@ Each step calls one Trello API path.
 | json | JSON response from the API Call |
 
 ---
-**Trello - Add Comment to Card** [/1/cards/{id}/actions/comments](https://developer.atlassian.com/cloud/trello/rest/?_ga=2.118514889.1765711000.1593034076-1069052946.1581371535#api-cards-id-actions-comments-post)
+##Trello - Add Comment to Card [/1/cards/{id}/actions/comments](https://developer.atlassian.com/cloud/trello/rest/?_ga=2.118514889.1765711000.1593034076-1069052946.1581371535#api-cards-id-actions-comments-post)
 
 
 ### Inputs
