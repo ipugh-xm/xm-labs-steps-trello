@@ -110,6 +110,7 @@ Each step calls one Trello API path.
 | ListID | ID of the list the card is in |
 | URL | URL to the card |
 | json | JSON response from the API Call |
+| ok | success of step (true) or (false) |
 
 
 ## Trello - Update Card [/1/cards/{id}](https://developer.atlassian.com/cloud/trello/rest/?_ga=2.118514889.1765711000.1593034076-1069052946.1581371535#api-cards-id-put)
@@ -141,6 +142,7 @@ Each step calls one Trello API path.
 | ListID | ID of the list the card is in |
 | URL | URL to the card |
 | json | JSON response from the API Call |
+| ok | success of step (true) or (false) |
 
 
 ## Trello - Add Comment to Card [/1/cards/{id}/actions/comments](https://developer.atlassian.com/cloud/trello/rest/?_ga=2.118514889.1765711000.1593034076-1069052946.1581371535#api-cards-id-actions-comments-post)
@@ -163,6 +165,7 @@ Each step calls one Trello API path.
 | ListID | ID of the list the card is in |
 | URL | URL to the card |
 | json | JSON response from the API Call |
+| ok | success of step (true) or (false) |
 
 
 ## Example
