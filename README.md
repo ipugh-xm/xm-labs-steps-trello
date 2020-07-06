@@ -79,6 +79,8 @@ The **Trello - Create Card**, **Trello - Update Card**, and **Trello - Add Comme
 
 When using the due date field, we've found formats like `June 20, 2020`, `20 June 2020`, or `6/20/2020` to work. Other formats should work too.
 
+Trello supports markdown formatting. [Here](https://help.trello.com/article/821-using-markdown-in-trello) is documentation on their specific syntax.
+
 Each step calls one Trello API path.
 
 
